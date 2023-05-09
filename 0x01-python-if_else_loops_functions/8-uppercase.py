@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def uppercase(s)
+def uppercase(s):
 new_s = ""
 for x is s:
     if ord(x) >= 97 and ord(x) <= 122:
