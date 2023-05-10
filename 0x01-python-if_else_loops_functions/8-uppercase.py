@@ -1,4 +1,4 @@
-#!/urs/bin/python3
+#!/usr/bin/python3
 def uppercase(s):
     result = ""
     for c in s:
