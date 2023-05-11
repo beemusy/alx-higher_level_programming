@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-# import functions from the file calculator_1.py
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
     a = 10
