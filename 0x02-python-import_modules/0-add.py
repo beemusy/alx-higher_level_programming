@@ -3,9 +3,9 @@
 
 from add_0 import add
 
-# initialise variables a and b
-a = 1
-b = 2
-
+# avoid exercution of code when imported
+if __name__ == "__main__":
+    a = 1
+    b = 2
 # print the result
 print("{} + {} = {}".format(a, b, add(a, b)))
