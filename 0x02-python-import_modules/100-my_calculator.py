@@ -2,10 +2,10 @@
 from sys import argv
 from calculator_1 import add, sub, mul, div
 
-if __file__ == "__main__":
+if __name__ == "__main__":
     numOfArg = len(argv)
 
-    if numOfArg != 3:
+    if numOfArg != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
 
