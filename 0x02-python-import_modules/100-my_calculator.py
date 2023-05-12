@@ -10,7 +10,7 @@ if __name__ == "__main__":
         exit(1)
 
     a = int(argv[1])
-    operator = int(argv[2])
+    operator = (argv[2])
     b = int(argv[3])
 
     if operator == "+":
@@ -23,3 +23,4 @@ if __name__ == "__main__":
         print("{:d} / {:d} = {:d}".format(a, b, add(a, b)))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
+        exit(1)
