@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 from sys import argv
+
 if __name__ == "__main__":
     numOfArg = len(argv) - 1
     if numOfArg == 0:
